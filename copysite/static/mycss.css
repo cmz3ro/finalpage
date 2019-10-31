@@ -1,0 +1,238 @@
+body W{
+ 
+  background:white;
+}
+
+.imgwidth{
+	width: 200px;
+	height: 300px;
+}
+.imgwidth1{
+ 
+  padding-left: 15px;
+  padding-right: 111px;
+  padding-top: 10px;
+
+}
+
+.elementor-element.elementor-element-9de1c4d.elementor-section-height-min-height.elementor-section-boxed.elementor-section-height-default.elementor-section-items-middle.elementor-section.elementor-top-section{
+	
+}
+.social_icons{
+ float:left;/*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  display: block; 
+  width: 30px;
+
+}
+
+
+.menu_drop >a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+ 
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+   /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+.menu_drop >a:hover {
+ /*добавляем эффект при наведении*/
+
+
+
+}
+.menu_drop >li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+     
+    /*Стили для скрытого выпадающего меню*/
+.menu_drop >  li > ul {
+        position:absolute;
+        top:25px;
+        display:none;   
+    }
+     
+    /*Делаем скрытую часть видимой*/
+.menu_drop > ul > li {
+        display:block; 
+        width:250px;  /*Задаем ширину выпадающего меню*/  
+        background-color: #263141;    
+    }
+.menu_drop > ul> li {
+        display:block; 
+        width:250px;  /*Задаем ширину выпадающего меню*/  
+        background-color: #263141;    
+    }
+
+.menu_drop > ul> li > a:hover  {
+        float:none; /*Убираем горизонтальное позиционирование*/
+        
+        color:white;
+    }
+
+
+.color_text{
+  color: black;
+}
+.prob{
+  color:white;
+  width: 300px
+  height:300px;
+  background-color:red;
+}
+
+.new_class a{
+    color:black;
+}
+
+.new_class a{
+       float:none; /*Убираем горизонтальное позиционирование*/        
+        color:black;
+}
+
+
+
+.new_class a{
+  
+}
+
+
+.new_class a:hover{
+    
+    text-shadow: 0px 0px 2px black , 0 0 3em white;  
+    display: inline-block;
+    
+    
+}
+
+
+
+
+
+
+.new_class a:after {
+     background-color: white;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+   
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+
+
+
+
+
+
+.q11111 a{
+
+}  
+
+.footer_menu {
+   
+  
+}
+
+.footer_menu a:hover{
+   text-shadow: 1px 1px 2px black, 0 0 3em white;  
+    
+    color: white;
+    
+  
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .text_treni
+  {  
+  margin-bottom:0px;
+  }
+}
+
+.elementor-nav-menu--main{
+ 
+}
+
+.foto_command{
+  height: 400px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .foto_command {  
+     height: 200px;
+  }
+}
+
+.commanda_fotki{
+  padding-left:70px;
+}
+
+@media (max-width: 600px) {
+  .commanda_fotki {
+  padding-left:20px;  
+  
+  }
+}
+
+.foter_icons_pad{
+  padding-left: 80px; 
+}
+
+@media (max-width: 600px) {
+  .foter_icons_pad {
+  padding-left: 110px;
+  padding-bottom: 20px; 
+  
+  }
+}
+
+
+@media (max-width: 600px) {
+  .imgwidth {
+     
+  
+  }
+}
+
+
+.sborislid {
+margin-left: 48px;
+}
+
+@media (max-width: 600px) {
+  .sborislid {
+   margin-left: 10px; 
+  
+  }
+}
+.sborislid1 {
+padding-right: -20px;
+}
+
+@media (max-width: 600px) {
+  .sborislid1 {
+    
+  padding-right: 0px;
+  }
+}
